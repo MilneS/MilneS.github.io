@@ -1,0 +1,28 @@
+.backgroundstyle{
+    position:fixed;
+    left:0px;
+    top:0px;    
+    right:0px;    
+    bottom:0px;
+    background-color: rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+.cardstyle{
+    width:700px;
+    height:500px;
+}
+.imgstyle{
+    width:80%;
+    height:80%;
+    border: 1px solid blue
+}
+.titlestyle{
+    width:10%;
+    height:10%;
+    border: 1px solid green
+}

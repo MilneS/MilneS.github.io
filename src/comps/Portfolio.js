@@ -6,9 +6,11 @@ import expensesChart from "./projectspics/expenseschart.png";
 import colorGame from "./projectspics/colorgame.png";
 import yelpCamp from "./projectspics/yelpcamp.png";
 
+import Modal from './Modal';
+
+
 const Portfolio = () => {
   return (
-    <>
       <div className={classes.containerright} id="portfolio">
         <div>
           <h2 className={classes.title}>Projects</h2>
@@ -18,8 +20,15 @@ const Portfolio = () => {
             <li>
               <div className={classes.imgcontainer}>
                 <img src={foodOrder} alt="" />
-                <div className={classes.after} ><p className={classes.view}>View</p></div>
+                <div className={classes.after}>
+                
+                  <p className={classes.view}>
+                    View
+                  </p>
+                  <Modal/>
+                </div>
               </div>
+
               <div>
                 <i className="fa fa-github" />
                 <a href="https://github.com/MilneS/food-order-app">
@@ -29,9 +38,11 @@ const Portfolio = () => {
               <div>React</div>
             </li>
             <li>
-            <div className={classes.imgcontainer}>
+              <div className={classes.imgcontainer}>
                 <img src={meetups} alt="" />
-                <div className={classes.after} ><p className={classes.view}>View</p></div>
+                <div className={classes.after}>
+                  <p className={classes.view}>View</p>
+                </div>
               </div>
               <div>
                 <i className="fa fa-github" />
@@ -40,9 +51,11 @@ const Portfolio = () => {
               <div>React</div>
             </li>
             <li>
-            <div className={classes.imgcontainer}>
+              <div className={classes.imgcontainer}>
                 <img src={quotes} alt="" />
-                <div className={classes.after} ><p className={classes.view}>View</p></div>
+                <div className={classes.after}>
+                  <p className={classes.view}>View</p>
+                </div>
               </div>
               <div>
                 <i className="fa fa-github" />
@@ -51,9 +64,11 @@ const Portfolio = () => {
               <div>React</div>
             </li>
             <li>
-            <div className={classes.imgcontainer}>
-                <img src={expensesChart} alt=""/>
-                <div className={classes.after} ><p className={classes.view}>View</p></div>
+              <div className={classes.imgcontainer}>
+                <img src={expensesChart} alt="" />
+                <div className={classes.after}>
+                  <p className={classes.view}>View</p>
+                </div>
               </div>
               <div>
                 <i className="fa fa-github" />
@@ -64,9 +79,11 @@ const Portfolio = () => {
               <div>React</div>
             </li>
             <li>
-            <div className={classes.imgcontainer}>
+              <div className={classes.imgcontainer}>
                 <img src={colorGame} alt="" />
-                <div className={classes.after} ><p className={classes.view}>View</p></div>
+                <div className={classes.after}>
+                  <p className={classes.view}>View</p>
+                </div>
               </div>
               <div>
                 <i className="fa fa-github" />
@@ -75,9 +92,11 @@ const Portfolio = () => {
               <div>Javascript</div>
             </li>
             <li>
-            <div className={classes.imgcontainer}>
+              <div className={classes.imgcontainer}>
                 <img src={yelpCamp} alt="" />
-                <div className={classes.after} ><p className={classes.view}>View</p></div>
+                <div className={classes.after}>
+                  <p className={classes.view}>View</p>
+                </div>
               </div>
               <div>
                 <i className="fa fa-github" />
@@ -94,7 +113,6 @@ const Portfolio = () => {
         </div>
         <div className={classes.line} id="contact" />
       </div>
-    </>
   );
 };
 

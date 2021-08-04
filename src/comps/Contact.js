@@ -20,11 +20,11 @@ const Contact = () => {
           <form>
             <div className={classes.formstyle}>
               <div>
-                <label for="name" />
+                <label htmlFor="name" />
                 <input id="name" type="text" placeholder="Name" required />
               </div>
               <div>
-                <label for="email" />
+                <label htmlFor="email" />
                 <input
                   id="email"
                   type="email"
@@ -33,7 +33,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label for="message" />
+                <label htmlFor="message" />
                 <textarea
                   id="message"
                   type="text"
