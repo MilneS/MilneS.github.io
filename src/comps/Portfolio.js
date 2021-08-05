@@ -5,12 +5,14 @@ import ProjectsData from "./Projectsdata";
 
 const Portfolio = () => {
   const [showModal, setShowModal] = useState(false);
+  const [modalData, setModalData] = useState({});
 
-  const modalHandler = (closeModal) => {
+  const modalHandler = (openModal, item) => {
     setShowModal(!showModal);
-    if (closeModal) {
+    if (openModal) {
       setShowModal(!showModal);
     }
+    setModalData(item)
   };
 
   return (
@@ -25,11 +27,11 @@ const Portfolio = () => {
               <div className={classes.imgcontainer}>
                 <img src={item.pic} alt="" />
                 <div className={classes.after}>
-                  <p onClick={modalHandler} className={classes.view}>
+                  <p onClick={()=>modalHandler(true, item)} className={classes.view}>
                     View
                   </p>
                 </div>
-                {showModal && <Modal closeModal={modalHandler} />}
+                {showModal && <Modal openModal={modalHandler} modalData={modalData}/>}
               </div>
               <div>
                 <i className="fa fa-github" />

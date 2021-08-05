@@ -4,7 +4,7 @@
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@
 }
 .modalcard {
   width: 500px;
-  height: 400px;
+  height: 370px;
   border: 3px solid #a2a2a263;
   background-color: white;
   border-radius: 5%;
@@ -23,39 +23,44 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative
+  position: relative;
 }
 .modalbtn {
   width: 100%;
-  height: 20px;
-  color: black;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: absolute;
-  top:0;
-  padding:0px;
+  top: 0;
+  padding: 0px;
+  font-size: 30px;
 }
-.modalbtn > i{
+.modalbtn > i {
   padding-right: 10px;
-  padding-top:20px;
+  padding-top: 20px;
 }
 
-
-.modalimg {
+.imgdiv {
   width: 100%;
   height: 87%;
-  color: black;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.modalimg {
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+
 .modaltitle {
   width: 100%;
   height: 13%;
-  color: black;
+  color: #787878;
+  font-size: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
