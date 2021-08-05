@@ -1,4 +1,4 @@
-import classes from "./Main.module.css";
+import classes from "./Contact.module.css";
 import "font-awesome/css/font-awesome.min.css";
 
 const Contact = () => {

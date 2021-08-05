@@ -28,7 +28,6 @@
   color: black;
   position: absolute;
   border: 1px solid red;
-  float: right
 }
 .modalimg {
   width: 100%;
@@ -36,8 +35,6 @@
   color: black;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
-
-
 }
 .modaltitle {
   width: 100%;
