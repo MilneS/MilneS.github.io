@@ -9,14 +9,17 @@ import expensesChart from "./projectspics/expenseschart.png";
 import colorGame from "./projectspics/colorgame.png";
 import yelpCamp from "./projectspics/yelpcamp.png";
 
-
 const Portfolio = () => {
   const [showModal, setShowModal] = useState(false);
 
-  const modalHandler = (e) => {
+  const modalHandler = (closeModal) => {
     setShowModal(!showModal);
+    if (closeModal) {
+      setShowModal(!showModal);
+    }
   };
-  
+
+
   return (
     <div className={classes.containerright} id="portfolio">
       <div>
@@ -28,14 +31,14 @@ const Portfolio = () => {
             <div className={classes.imgcontainer}>
               <img src={foodOrder} alt="" />
               <div className={classes.after}>
-                <p  onClick={modalHandler} className={classes.view}>
+                <p onClick={modalHandler} className={classes.view}>
                   View
                 </p>
-                {showModal && <Modal showModal={showModal}/>}
-               
               </div>
+              {showModal && (
+                  <Modal closeModal={modalHandler} />
+                )}
             </div>
-
             <div>
               <i className="fa fa-github" />
               <a href="https://github.com/MilneS/food-order-app">
