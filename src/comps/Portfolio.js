@@ -14,10 +14,11 @@ const Portfolio = () => {
 
   const [showModal, setShowModal]=useState(false);
 
+  
+ 
   const modalHandler=(e)=>{
     setShowModal( !showModal )
   }
-
 
 
   return (
@@ -35,7 +36,8 @@ const Portfolio = () => {
                   <p onClick={modalHandler} className={classes.view}>
                     View
                   </p>
-                  {showModal && <Modal/>}
+                  {/* {showModal && <Modal showModal={showModal}/>} */}
+                  <Modal showModal={showModal}/>
                 </div>
               </div>
 
