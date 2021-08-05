@@ -21,23 +21,42 @@
   z-index: 6;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative
 }
 .modalbtn {
-  width: 20px;
+  width: 100%;
   height: 20px;
   color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   position: absolute;
-  border: 1px solid red;
+  top:0;
+  padding:0px;
 }
+.modalbtn > i{
+  padding-right: 10px;
+  padding-top:20px;
+}
+
+
 .modalimg {
   width: 100%;
   height: 87%;
   color: black;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .modaltitle {
   width: 100%;
-  height: 12%;
+  height: 13%;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

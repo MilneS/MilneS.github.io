@@ -28,11 +28,11 @@ const Portfolio = () => {
             <div className={classes.imgcontainer}>
               <img src={foodOrder} alt="" />
               <div className={classes.after}>
-                <p onClick={modalHandler} className={classes.view}>
+                <p  onClick={modalHandler} className={classes.view}>
                   View
                 </p>
-                {/* {showModal && <Modal showModal={showModal}/>} */}
-                <Modal showModal={showModal} />
+                {showModal && <Modal showModal={showModal}/>}
+               
               </div>
             </div>
 
