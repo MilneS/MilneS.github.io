@@ -7,9 +7,19 @@ import colorGame from "./projectspics/colorgame.png";
 import yelpCamp from "./projectspics/yelpcamp.png";
 
 import Modal from './Modal';
+import { useState } from "react";
 
 
 const Portfolio = () => {
+
+  const [showModal, setShowModal]=useState(false);
+
+  const modalHandler=(e)=>{
+    setShowModal( !showModal )
+  }
+
+
+
   return (
       <div className={classes.containerright} id="portfolio">
         <div>
@@ -22,10 +32,10 @@ const Portfolio = () => {
                 <img src={foodOrder} alt="" />
                 <div className={classes.after}>
                 
-                  <p className={classes.view}>
+                  <p onClick={modalHandler} className={classes.view}>
                     View
                   </p>
-                  <Modal/>
+                  {showModal && <Modal/>}
                 </div>
               </div>
 

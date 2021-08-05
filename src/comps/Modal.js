@@ -11,10 +11,10 @@ const Modal = () => {
 
   return (
     <>
-      <div className={classes.backgroundstyle}>
-        <div className={classes.cardstyle}>
-          <div className={classes.imgstyle}>img</div>
-          <div className={classes.titlestyle}>title</div>
+      <div className={classes.modalbackground}>
+        <div className={classes.modalcard}>
+          <div className={classes.modalimg}>img</div>
+          <div className={classes.modaltitle}>title</div>
         </div>
       </div>
     </>
