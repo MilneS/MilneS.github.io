@@ -1,4 +1,3 @@
-
 .header {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   top: 0px;
@@ -21,9 +20,7 @@ ul {
   display: flex;
 }
 
-a {  color: #49bf9d;
-  transition: 400ms;
-  opacity: 100%;
+ul > a {
   color: inherit;
   text-decoration: none;
   justify-content: space-evenly;
@@ -31,7 +28,7 @@ a {  color: #49bf9d;
 }
 
 .po,
-a:hover{
+a:hover {
   color: #49bf9d;
   transition: 400ms;
   opacity: 100%;

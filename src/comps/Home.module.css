@@ -1,43 +1,47 @@
 /* --LEFT-- */
 
 .containerleft {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 16pt;
-    text-align: right;
-    height: 100%;
-  }
-  
-  .bonjour {
-    color: #ffffff91;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 21.6px;
-    font-weight: 500;
-    line-height: 1.5em;
-    padding-top: 35%;
-    padding-bottom: 54%;
-    padding-right: 60px;
-    letter-spacing: 1px;
-  }
-  
-  span {
-    color: white;
-  }
-  
-  .lefticons {
-    color: #ffffff9b;
-    padding: 0px 60px;
-    font-size: 25px;
-  }
-  .lefticons a {
-    margin-left: 5%;
-  }
-  .name {
-    margin-top: 20px;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    color: #ffffff80;
-  }
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  text-align: right;
+  height: 100%;
+}
+
+.bonjour {
+  color: #ffffff91;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 21.6px;
+  font-weight: 500;
+  line-height: 1.5em;
+  padding-top: 35%;
+  padding-bottom: 54%;
+  padding-right: 60px;
+  letter-spacing: 1px;
+}
+
+span {
+  color: white;
+}
+
+.lefticons {
+  padding: 0px 60px;
+  font-size: 25px;
+}
+.lefticons a {
+  color: #ffffff80;
+  margin-left: 5%;
+}
+.lefticons a:hover{
+  color: #49bf9d;
+  transition: 400ms;
+}
+.name {
+  margin-top: 20px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #ffffff80;
+}

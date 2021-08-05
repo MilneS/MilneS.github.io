@@ -44,15 +44,17 @@
     margin-top: 20px;
   }
   
-  .formstyle {
+  .formstyle, ::placeholder{
     width: 400px;
+    color: #a2a2a2;
+
   }
   .formstyle input,
   textarea {
     background: #f7f7f7;
     border: 0px;
     border-radius: 5px;
-    color: #a2a2a2;
+    color: #787878;
     font-size: 12pt;
     margin-bottom: 2px;
     box-sizing: border-box;
@@ -68,7 +70,7 @@
   input:focus {
     outline: unset;
   }
-  
+  a{text-decoration: none;}
   button {
     color: #787878;
     background-color: white;
@@ -81,11 +83,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+ }
   button:hover {
     color: #49bf9d;
     border-color: #49bf9d;
-    transition: 500ms;
+    transition: 400ms;
   }
   
   .emailIcons {
@@ -105,8 +107,14 @@
   .emailIcons i {
     width: 10%;
   }
-  .emailIcons p {
+  .emailIcons p, .emailIcons a{
     width: 88%;
     color: #787878;
+    text-decoration: none;
+  }
+
+  .emailIcons a:hover{
+    color: #49bf9d;
+    transition: 400ms;
   }
   
