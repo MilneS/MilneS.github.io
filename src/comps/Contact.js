@@ -9,6 +9,7 @@ const Contact = () => {
     reply_to: "",
     message: "",
   });
+  const [showMessage, setShowMessage] = useState(false);
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -20,6 +21,7 @@ const Contact = () => {
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
+        setShowMessage(true);
       })
       .catch((err) => {
         console.log("FAILED...", err);
@@ -44,6 +46,11 @@ const Contact = () => {
             Want to collaborate, discuss projects or just say hi? Don't
             hesistate to send me a message!
           </p>
+          <div className={classes.sentcontainer}>
+            {showMessage && 
+            <p>Your message was sent!</p>
+            }
+          </div>
         </div>
         <div className={classes.contactContainer}>
           <form onSubmit={onSubmit}>

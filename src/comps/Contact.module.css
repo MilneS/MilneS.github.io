@@ -44,6 +44,19 @@
   margin-top: 20px;
 }
 
+.sentcontainer {
+  padding: 15px;
+  position: relative;
+}
+.sentcontainer > p {
+  padding: 0px;
+  position: absolute;
+  color: #49bf9d;
+  top:0px;
+  left:0px;
+  margin:0px;
+}
+
 .formstyle,
 ::placeholder {
   width: 400px;
