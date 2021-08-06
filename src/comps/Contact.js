@@ -24,8 +24,7 @@ const Contact = () => {
       .catch((err) => {
         console.log("FAILED...", err);
       });
-      setToSend({ from_name: "", reply_to: "", message: "" });
-
+    setToSend({ from_name: "", reply_to: "", message: "" });
   };
 
   const handleChange = (e) => {
