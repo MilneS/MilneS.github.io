@@ -98,7 +98,6 @@ button:hover {
   flex-flow: row wrap;
   width: 250px;
   color: #a2a2a2;
-
 }
 
 .emailIcons * {
@@ -111,6 +110,9 @@ button:hover {
 .emailIcons a {
   width: 80%;
   color: #a2a2a2;
+}
+.country {
+  line-height: 2.5em;
 }
 
 .emailIcons a:hover {

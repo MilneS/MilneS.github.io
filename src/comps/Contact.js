@@ -24,6 +24,8 @@ const Contact = () => {
       .catch((err) => {
         console.log("FAILED...", err);
       });
+      setToSend({ from_name: "", reply_to: "", message: "" });
+
   };
 
   const handleChange = (e) => {
@@ -94,7 +96,7 @@ const Contact = () => {
             <i className="fa fa-map-marker" />
             <p>
               Dallas, TX <br />
-              United States
+              <span className={classes.country}>United States</span>
             </p>
             <i className="fa fa-envelope" />
             <p>
