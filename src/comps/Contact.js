@@ -1,7 +1,35 @@
 import classes from "./Contact.module.css";
 import "font-awesome/css/font-awesome.min.css";
+import { send } from "emailjs-com";
+import { useState } from "react";
 
 const Contact = () => {
+  const [toSend, setToSend] = useState({
+    from_name: "",
+    reply_to: "",
+    message: "",
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      process.env.REACT_APP_SERVICE,
+      process.env.REACT_APP_TEMPLATE,
+      toSend,
+      process.env.REACT_APP_USER
+    )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
+
   return (
     <>
       <div className={classes.containerright}>
@@ -17,17 +45,28 @@ const Contact = () => {
           </p>
         </div>
         <div className={classes.contactContainer}>
-          <form>
+          <form onSubmit={onSubmit}>
             <div className={classes.formstyle}>
               <div>
                 <label htmlFor="name" />
-                <input id="name" type="text" placeholder="Name" required />
+                <input
+                  id="name"
+                  name="from_name"
+                  type="text"
+                  placeholder="Name"
+                  value={toSend.from_name}
+                  onChange={handleChange}
+                  required
+                />
               </div>
               <div>
                 <label htmlFor="email" />
                 <input
                   id="email"
                   type="email"
+                  name="reply_to"
+                  value={toSend.reply_to}
+                  onChange={handleChange}
                   placeholder="Enter Email"
                   required
                 />
@@ -37,8 +76,11 @@ const Contact = () => {
                 <textarea
                   id="message"
                   type="text"
+                  name="message"
+                  placeholder="Your message"
+                  value={toSend.message}
+                  onChange={handleChange}
                   minLength="2"
-                  placeholder="Your Message"
                   required
                 />
               </div>
@@ -47,14 +89,17 @@ const Contact = () => {
               <button type="submit">Send message</button>
             </div>
           </form>
+
           <div className={classes.emailIcons}>
-                <i className="fa fa-map-marker" />
-                <p>Dallas, TX <br/>
-                United States</p>
-                <i className="fa fa-envelope" />
-                <p><a href="mailto:milne.samira@gmail.com">
-                  milne.samira@gmail.com
-                </a></p>
+            <i className="fa fa-map-marker" />
+            <p>
+              Dallas, TX <br />
+              United States
+            </p>
+            <i className="fa fa-envelope" />
+            <p>
+              <a href="mailto:milne.samira@gmail.com">milne.samira@gmail.com</a>
+            </p>
           </div>
         </div>
       </div>
