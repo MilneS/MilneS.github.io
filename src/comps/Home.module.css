@@ -31,14 +31,16 @@ span {
   padding: 0px 60px;
   font-size: 25px;
 }
+
 .lefticons a {
   color: #ffffff80;
   margin-left: 5%;
 }
-.lefticons a:hover{
+.lefticons a:hover {
   color: #49bf9d;
   transition: 400ms;
 }
+
 .name {
   margin-top: 20px;
   font-size: 13px;

@@ -1,120 +1,119 @@
 /* --MAIN-- */
 
 .containerright {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding-left: 90px;
-    padding-right: 100px;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 16pt;
-    text-align: right;
-    height: 100%;
-  }
-  
-  .title {
-    color: #787878;
-    text-align: left;
-    font-size: 1em;
-    margin-bottom: 20px;
-    font-weight: normal;
-    line-height: 1.5em;
-  }
-  
-  .message {
-    color: #a2a2a2;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.75em;
-    align-items: center;
-    letter-spacing: 1px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding-left: 90px;
+  padding-right: 100px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  text-align: right;
+  height: 100%;
+}
+
+.title {
+  color: #787878;
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 20px;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+.message {
+  color: #a2a2a2;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75em;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
 /* --CONTACT-- */
 
- .contactContainer {
-    display: flex;
-    align-items: flex-start;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 400;
-    width: 100%;
-    padding-bottom: 20%;
-    margin-top: 20px;
-  }
-  
-  .formstyle, ::placeholder{
-    width: 400px;
-    color: #a2a2a2;
+.contactContainer {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  padding-bottom: 20%;
+  margin-top: 20px;
+}
 
-  }
-  .formstyle input,
-  textarea {
-    background: #f7f7f7;
-    border: 0px;
-    border-radius: 5px;
-    color: #787878;
-    font-size: 12pt;
-    margin-bottom: 2px;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 15px 20px;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 14px;
-  }
-  textarea {
-    padding-bottom: 50px;
-  }
-  textarea:focus,
-  input:focus {
-    outline: unset;
-  }
-  a{text-decoration: none;}
-  button {
-    color: #787878;
-    background-color: white;
-    border: 2px solid #f7f7f7;
-    border-radius: 5px;
-    font-size: 15px;
-    margin-top: 3%;
-    width: 150px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-  button:hover {
-    color: #49bf9d;
-    border-color: #49bf9d;
-    transition: 400ms;
-  }
-  
-  .emailIcons {
-    margin-left: 70px;
-    font-size: 15px;
-    display: flex;
-    flex-flow: row wrap;
-    width: 200px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-  }
-  
-  .emailIcons * {
-    margin: 10px 0px;
-  }
-  .emailIcons i {
-    width: 10%;
-  }
-  .emailIcons p, .emailIcons a{
-    width: 88%;
-    color: #787878;
-    text-decoration: none;
-  }
+.formstyle,
+::placeholder {
+  width: 400px;
+  color: #a2a2a2;
+}
+.formstyle input,
+textarea {
+  background: #f7f7f7;
+  border: 0px;
+  border-radius: 5px;
+  color: #787878;
+  font-size: 12pt;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 20px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 14px;
+}
+textarea {
+  padding-bottom: 50px;
+}
+textarea:focus,
+input:focus {
+  outline: unset;
+}
 
-  .emailIcons a:hover{
-    color: #49bf9d;
-    transition: 400ms;
-  }
-  
+button {
+  color: #787878;
+  background-color: white;
+  border: 2px solid #f7f7f7;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 3%;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+button:hover {
+  color: #49bf9d;
+  border-color: #49bf9d;
+  transition: 400ms;
+}
+
+.emailIcons {
+  margin-left: 70px;
+  font-size: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 250px;
+  color: #a2a2a2;
+
+}
+
+.emailIcons * {
+  margin: 10px 0px;
+}
+.emailIcons i {
+  width: 13%;
+}
+.emailIcons p,
+.emailIcons a {
+  width: 80%;
+  color: #a2a2a2;
+}
+
+.emailIcons a:hover {
+  color: #49bf9d;
+  transition: 400ms;
+}

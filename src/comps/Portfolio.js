@@ -12,7 +12,7 @@ const Portfolio = () => {
     if (openModal) {
       setShowModal(!showModal);
     }
-    setModalData(item)
+    setModalData(item);
   };
 
   return (
@@ -27,17 +27,26 @@ const Portfolio = () => {
               <div className={classes.imgcontainer}>
                 <img src={item.pic} alt="" />
                 <div className={classes.after}>
-                  <p onClick={()=>modalHandler(true, item)} className={classes.view}>
+                  <p
+                    onClick={() => modalHandler(true, item)}
+                    className={classes.view}
+                  >
                     View
                   </p>
                 </div>
-                {showModal && <Modal openModal={modalHandler} modalData={modalData}/>}
+                {showModal && (
+                  <Modal openModal={modalHandler} modalData={modalData} />
+                )}
               </div>
-              <div>
-                <i className="fa fa-github" />
-                <a href={item.link}>{item.title}</a>
+
+              <div className={classes.titlecl}>
+                <div className={classes.cardIcons}>
+                  <i className="fa fa-github" />
+                  <a href={item.link}>{item.title}</a>
+                  <i></i>
+                  <p className={classes.descr}>{item.description}</p>
+                </div>
               </div>
-              <div>{item.description}</div>
             </li>
           ))}
         </ul>
