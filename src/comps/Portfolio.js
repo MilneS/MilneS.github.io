@@ -25,7 +25,7 @@ const Portfolio = () => {
           {ProjectsData.map((item) => (
             <li key={item.id}>
               <div className={classes.imgcontainer}>
-                <img src={item.pic} alt="" />
+                <img className={classes.imgs} src={item.pic} alt="" />
                 <div className={classes.after}>
                   <p
                     onClick={() => modalHandler(true, item)}
@@ -56,7 +56,7 @@ const Portfolio = () => {
           <button id="bouton">Full Portfolio</button>
         </a>
       </div>
-      <div className={classes.line} id="contact" />
+      <div className={classes.line} />
     </div>
   );
 };

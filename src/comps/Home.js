@@ -5,9 +5,8 @@ const Home = () => {
   return (
     <>
       <div className={classes.containerleft}>
-        
         <div className={classes.bonjour}>
-          <p>
+          <p className={classes.bonjourp}>
             Bonjour! <span className={classes.sam}>I'm Sam Milne</span>.<br />
             I'm a front-end web developer.
           </p>

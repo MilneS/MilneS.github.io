@@ -17,13 +17,16 @@
   font-size: 21.6px;
   font-weight: 500;
   line-height: 1.5em;
-  padding-top: 35%;
-  padding-bottom: 54%;
+  padding-top: 37%;
+  padding-bottom: 60%;
   padding-right: 60px;
   letter-spacing: 1px;
 }
+.bonjourp{
+  margin:0px;
+}
 
-.sam{
+.sam {
   color: white;
 }
 
@@ -46,4 +49,30 @@
   font-size: 13px;
   letter-spacing: 0.5px;
   color: #ffffff80;
+}
+
+@media (max-width: 768px) {
+  .containerleft {
+    text-align: unset;
+    text-align: right;
+    padding-right: 5%
+  }
+  .bonjour {
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin-bottom: 2%;
+    padding-right: 0px;
+  }
+  .name {
+    display: none;
+  }
+  .lefticons {
+    padding-bottom: 2%;
+    font-size: 20px;
+    padding-right: 0px;
+    margin-right: 5px;
+
+
+  }
 }

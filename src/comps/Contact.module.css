@@ -52,9 +52,9 @@
   padding: 0px;
   position: absolute;
   color: #49bf9d;
-  top:0px;
-  left:0px;
-  margin:0px;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
 }
 
 .formstyle,
@@ -131,4 +131,23 @@ button:hover {
 .emailIcons a:hover {
   color: #49bf9d;
   transition: 400ms;
+}
+
+@media (max-width: 768px) {
+  .message {
+    font-size: 15px;
+  }
+  .emailIcons {
+    margin-left: 30px;
+    font-size: 14px;
+  }
+  .emailIcons * {
+    margin: 0px 0px;
+  }
+  .emailIcons>p{
+    margin-bottom: 15px;
+  }
+  .country {
+    line-height: 1.5em;
+  }
 }

@@ -1,47 +1,68 @@
-
 /* --ABOUT-- */
 
 .containerright {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding-left: 90px;
-    padding-right: 100px;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 16pt;
-    text-align: right;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding-left: 90px;
+  padding-right: 100px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  height: 100%;  
+  text-align: center;
+}
+.profilepic{
+  width: 200px;
+  height: 200px;
+  justify-content: flex-start;
+  margin-top: 20%;
+  border-radius: 50%;
+  border: 5px solid #a2a2a263;
+  opacity:0.95;
+}
+
+.fsttitle {
+  color: #787878;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 10%;
+  letter-spacing: -1.2px;
+}
+.title {
+  color: #787878;
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 20px;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+.message {
+  color: #a2a2a2;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75em;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.line {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  border-top: 2px solid rgba(131, 130, 130, 0.198);
+}
+
+
+@media (max-width: 768px) {
+  .profilepic{
+    display: none;
   }
-  
   .fsttitle {
-    color: #787878;
-    text-align: center;
-    font-size: 32px;
-    font-weight: 400;
-    padding-top: 20%;
-    letter-spacing: -1.2px;
+    font-size: 30px;   
   }
-  .title {
-    color: #787878;
-    text-align: left;
-    font-size: 1em;
-    margin-bottom: 20px;
-    font-weight: normal;
-    line-height: 1.5em;
-  }
-  
   .message {
-    color: #a2a2a2;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.75em;
-    align-items: center;
-    letter-spacing: 1px;
+    font-size: 15px;
   }
-  
-  .line {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border-top: 2px solid rgba(131, 130, 130, 0.198);
-  }
+}

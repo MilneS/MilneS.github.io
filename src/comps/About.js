@@ -1,10 +1,12 @@
 import classes from "./About.module.css";
+import profilePic from '../linkedinpic.png';
 
 const About = () => {
   return (
     <>
       <div className={classes.containerright}>
         <div id="home">
+        <img className={classes.profilepic} src={profilePic} alt="" />
           <h2 className={classes.fsttitle}>
             I am a web developer, traveler and life hacker.
           </h2>
