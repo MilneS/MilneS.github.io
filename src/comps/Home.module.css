@@ -55,11 +55,12 @@
   .containerleft {
     text-align: unset;
     text-align: right;
-    padding-right: 5%
+    padding-right: 5%;
+    height:170px
   }
   .bonjour {
     font-size: 20px;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 0%;
     margin-bottom: 2%;
     padding-right: 0px;

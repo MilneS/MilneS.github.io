@@ -61,8 +61,11 @@
   }
   .fsttitle {
     font-size: 30px;   
+    padding-top: 25%;
   }
   .message {
     font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
   }
 }

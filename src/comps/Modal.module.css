@@ -42,7 +42,7 @@
   padding-right: 10px;
   padding-top: 20px;
 }
-.modalbtn>i:hover {
+.modalbtn > i:hover {
   color: rgba(255, 255, 255, 0.9);
   transition: 300ms;
 }
@@ -72,5 +72,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity:1
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .modalcard {
+    width: 350px;
+    height: 220px;
+  }
 }
