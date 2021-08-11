@@ -10,9 +10,12 @@ const Contact = () => {
     message: "",
   });
   const [showMessage, setShowMessage] = useState(false);
+  const [sending, setSending] = useState(false);
+
 
   const onSubmit = (e) => {
     e.preventDefault();
+    setSending(true);
     send(
       process.env.REACT_APP_SERVICE,
       process.env.REACT_APP_TEMPLATE,
@@ -21,6 +24,7 @@ const Contact = () => {
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
+        setSending(false)
         setShowMessage(true);
       })
       .catch((err) => {
@@ -47,8 +51,9 @@ const Contact = () => {
             hesistate to send me a message!
           </p>
           <div className={classes.sentcontainer}>
-            {showMessage && 
-            <p>Your message was sent!</p>
+            {sending ? <p style={{'color':'#a8a029'}}>Sending...</p> : 
+            showMessage ? 
+            <p style={{'color':'#49bf9d'}}>Your message was sent!</p> : null
             }
           </div>
         </div>
