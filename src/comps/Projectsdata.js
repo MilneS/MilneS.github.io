@@ -1,7 +1,7 @@
 import foodOrder from "./projectspics/foodorder.png";
 import meetups from "./projectspics/meetups.png";
 import quotes from "./projectspics/quotes.png";
-import expensesChart from "./projectspics/expenseschart.png";
+import pokedex from "./projectspics/pokedex.png";
 import colorGame from "./projectspics/colorgame.png";
 import yelpCamp from "./projectspics/yelpcamp.png";
 
@@ -28,10 +28,10 @@ const ProjectsData = [
     id: '3'
   },
   {
-    pic: expensesChart,
-    title: "Expenses Chart",
+    pic: pokedex,
+    title: "Pokédex",
     description: "React",
-    link: "https://github.com/MilneS/expenses-chart",
+    link: "https://milnes.github.io/pokedex/",
     id: '4'
   },
   {
