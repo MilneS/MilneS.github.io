@@ -38,7 +38,7 @@ const ProjectsData = [
     pic: colorGame,
     title: "Color Game",
     description: "Javascript",
-    link: "https://github.com/MilneS/color-game",
+    link: "https://milnes.github.io/color-game/",
     id: '5'
   },
 
