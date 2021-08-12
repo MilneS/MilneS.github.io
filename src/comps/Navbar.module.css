@@ -29,7 +29,7 @@ ul > a {
 
 .po,
 a:hover {
-  color: #49bf9d !important;
+  color: #49bf9d;
   transition: 400ms;
   opacity: 1;
 }
