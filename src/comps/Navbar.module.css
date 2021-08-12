@@ -23,7 +23,7 @@ ul > a {
   text-decoration: none;
   color: #ffffffc2;
   justify-content: space-evenly;
-  opacity: 70%;
+  opacity: 70% !important;
 
 }
 
