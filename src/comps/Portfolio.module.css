@@ -67,7 +67,7 @@ li > div:nth-of-type(even) {
   font-size: 15px;
   justify-content: left;
   border: unset;
-  opacity: 100%;
+  opacity: 1;
   font-weight: 500;
 }
 
