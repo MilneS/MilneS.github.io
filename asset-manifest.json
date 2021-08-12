@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7901a633.chunk.css",
+    "main.css": "/static/css/main.a1d790e4.chunk.css",
     "main.js": "/static/js/main.818d9bfe.chunk.js",
     "main.js.map": "/static/js/main.818d9bfe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a45096d.js",
@@ -12,7 +12,7 @@
     "static/js/3.c6003b75.chunk.js.map": "/static/js/3.c6003b75.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f78674c2.chunk.css.map": "/static/css/2.f78674c2.chunk.css.map",
-    "static/css/main.7901a633.chunk.css.map": "/static/css/main.7901a633.chunk.css.map",
+    "static/css/main.a1d790e4.chunk.css.map": "/static/css/main.a1d790e4.chunk.css.map",
     "static/js/2.3424ddb1.chunk.js.LICENSE.txt": "/static/js/2.3424ddb1.chunk.js.LICENSE.txt",
     "static/media/colorgame.ef07acf9.png": "/static/media/colorgame.ef07acf9.png",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.4a45096d.js",
     "static/css/2.f78674c2.chunk.css",
     "static/js/2.3424ddb1.chunk.js",
-    "static/css/main.7901a633.chunk.css",
+    "static/css/main.a1d790e4.chunk.css",
     "static/js/main.818d9bfe.chunk.js"
   ]
 }
