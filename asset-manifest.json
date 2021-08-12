@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7901a633.chunk.css",
-    "main.js": "/static/js/main.35f1c794.chunk.js",
-    "main.js.map": "/static/js/main.35f1c794.chunk.js.map",
+    "main.js": "/static/js/main.818d9bfe.chunk.js",
+    "main.js.map": "/static/js/main.818d9bfe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a45096d.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a45096d.js.map",
     "static/css/2.f78674c2.chunk.css": "/static/css/2.f78674c2.chunk.css",
@@ -15,11 +15,11 @@
     "static/css/main.7901a633.chunk.css.map": "/static/css/main.7901a633.chunk.css.map",
     "static/js/2.3424ddb1.chunk.js.LICENSE.txt": "/static/js/2.3424ddb1.chunk.js.LICENSE.txt",
     "static/media/colorgame.ef07acf9.png": "/static/media/colorgame.ef07acf9.png",
-    "static/media/expenseschart.902c6901.png": "/static/media/expenseschart.902c6901.png",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/foodorder.1c3224fe.png": "/static/media/foodorder.1c3224fe.png",
     "static/media/linkedinpic.83e16df2.png": "/static/media/linkedinpic.83e16df2.png",
     "static/media/meetups.efb4d29b.png": "/static/media/meetups.efb4d29b.png",
+    "static/media/pokedex.2fdea482.png": "/static/media/pokedex.2fdea482.png",
     "static/media/quotes.50940953.png": "/static/media/quotes.50940953.png",
     "static/media/App.module.css": "/static/media/wallpaper.bcf7a4c1.jpg",
     "static/media/yelpcamp.502896b4.png": "/static/media/yelpcamp.502896b4.png"
@@ -29,6 +29,6 @@
     "static/css/2.f78674c2.chunk.css",
     "static/js/2.3424ddb1.chunk.js",
     "static/css/main.7901a633.chunk.css",
-    "static/js/main.35f1c794.chunk.js"
+    "static/js/main.818d9bfe.chunk.js"
   ]
 }
