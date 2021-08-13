@@ -56,7 +56,7 @@ li > div {
   margin-bottom: 10px;
   background-size: cover;
   background-position: center;
-  min-width:250px;
+  min-width: 250px;
   max-width: 250px;
 }
 
@@ -132,7 +132,7 @@ a {
   height: 100%;
   display: none;
 }
-.imgs{
+.imgs {
   width: 100%;
   height: 100%;
   border-radius: 5%;
@@ -154,8 +154,8 @@ a {
 .imgcontainer:hover .after {
   display: block;
   background: rgba(0, 0, 0, 0.6);
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   border-radius: 4%;
   display: flex;
   justify-content: center;
@@ -164,23 +164,12 @@ a {
 
 
 
-@media(max-width:768px){
-  .containerright {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-  .projectscontainer {
-  flex-direction: column;
-  margin-left: 0px;
-  }
-}
-
-@media(max-width:1300px){
+@media (max-width: 1300px) {
   .projectscontainer {
     flex-flow: column;
     width: 30%;
   }
-  li{
-    margin-left: 300px;
+  li {
+    margin-left: 160px;
   }
 }

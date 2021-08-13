@@ -14,20 +14,6 @@ const ProjectsData = [
     id: '1'
   },
   {
-    pic: meetups,
-    title: "Meetup",
-    description: "React",
-    link: "https://github.com/MilneS/meetup",
-    id: '2'
-  },
-  {
-    pic: quotes,
-    title: "Quote",
-    description: "React",
-    link: "https://github.com/MilneS/quote",
-    id: '3'
-  },
-  {
     pic: pokedex,
     title: "Pokédex",
     description: "React",
@@ -41,7 +27,20 @@ const ProjectsData = [
     link: "https://milnes.github.io/color-game/",
     id: '5'
   },
-
+  // {
+  //   pic: meetups,
+  //   title: "Meetup",
+  //   description: "React",
+  //   link: "https://github.com/MilneS/meetup",
+  //   id: '2'
+  // },
+  {
+    pic: quotes,
+    title: "Quote",
+    description: "React",
+    link: "https://github.com/MilneS/quote",
+    id: '3'
+  },
   {
     pic: yelpCamp,
     title: "YelpCamp",
