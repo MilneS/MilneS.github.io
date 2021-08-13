@@ -8,9 +8,9 @@ import yelpCamp from "./projectspics/yelpcamp.png";
 const ProjectsData = [
   {
     pic: foodOrder,
-    title: "Food Order app",
+    title: "DoorMeals",
     description: "React",
-    link: "https://github.com/MilneS/food-order-app",
+    link: "https://milnes.github.io/DoorMeals/",
     id: '1'
   },
   {
