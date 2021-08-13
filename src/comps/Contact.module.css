@@ -163,6 +163,6 @@ button:hover {
     letter-spacing: 0.5px;
   }
   .formstyle {
-    width: 300px;
+    width: auto;
   }
 }
