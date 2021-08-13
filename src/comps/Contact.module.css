@@ -57,11 +57,11 @@
   margin: 0px;
 }
 
-.formstyle,
-::placeholder {
+.formstyle {
   width: 400px;
   color: #a2a2a2;
 }
+
 .formstyle input,
 textarea {
   background: #f7f7f7;
@@ -157,13 +157,12 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-.message {
-  font-size: 15px;
-  line-height: 1.5em;
-  letter-spacing: 0.5px;
-}
-  .formstyle,
-  ::placeholder {
+  .message {
+    font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+  }
+  .formstyle {
     width: 300px;
   }
 }
