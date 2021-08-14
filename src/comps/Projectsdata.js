@@ -1,6 +1,6 @@
 import foodOrder from "./projectspics/foodorder.png";
-import meetups from "./projectspics/meetups.png";
-import quotes from "./projectspics/quotes.png";
+// import meetups from "./projectspics/meetups.png";
+import jokes from "./projectspics/jokes.png";
 import pokedex from "./projectspics/pokedex.png";
 import colorGame from "./projectspics/colorgame.png";
 import yelpCamp from "./projectspics/yelpcamp.png";
@@ -18,28 +18,28 @@ const ProjectsData = [
     title: "Pokédex",
     description: "React",
     link: "https://milnes.github.io/pokedex/",
-    id: '4'
+    id: '2'
   },
   {
     pic: colorGame,
     title: "Color Game",
     description: "Javascript",
     link: "https://milnes.github.io/color-game/",
-    id: '5'
+    id: '3'
   },
   // {
   //   pic: meetups,
   //   title: "Meetup",
   //   description: "React",
   //   link: "https://github.com/MilneS/meetup",
-  //   id: '2'
+  //   id: '4'
   // },
   {
-    pic: quotes,
-    title: "Quote",
+    pic: jokes,
+    title: "Jokes on You",
     description: "React",
-    link: "https://github.com/MilneS/quote",
-    id: '3'
+    link: "https://milnes.github.io/jokes",
+    id: '5'
   },
   {
     pic: yelpCamp,
