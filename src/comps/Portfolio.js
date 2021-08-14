@@ -1,20 +1,8 @@
 import classes from "./Portfolio.module.css";
-import Modal from "./Modal";
 import { useState } from "react";
 import ProjectsData from "./Projectsdata";
 
 const Portfolio = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [modalData, setModalData] = useState({});
-
-  const modalHandler = (openModal, item) => {
-    setShowModal(!showModal);
-    if (openModal) {
-      setShowModal(!showModal);
-    }
-    setModalData(item);
-  };
-
   return (
     <div className={classes.containerright} id="portfolio">
       <div>
@@ -26,17 +14,11 @@ const Portfolio = () => {
             <li key={item.id}>
               <div className={classes.imgcontainer}>
                 <img className={classes.imgs} src={item.pic} alt="" />
-                <div className={classes.after}>
-                  <p
-                    onClick={() => modalHandler(true, item)}
-                    className={classes.view}
-                  >
-                    View
-                  </p>
-                </div>
-                {showModal && (
-                  <Modal openModal={modalHandler} modalData={modalData} />
-                )}
+                <a href={item.link}>
+                  <div className={classes.after}>
+                    <p className={classes.view}>View</p>
+                  </div>
+                </a>
               </div>
 
               <div className={classes.titlecl}>
