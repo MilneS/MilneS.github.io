@@ -1,5 +1,4 @@
 import classes from "./Portfolio.module.css";
-import { useState } from "react";
 import ProjectsData from "./Projectsdata";
 
 const Portfolio = () => {

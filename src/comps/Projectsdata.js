@@ -3,7 +3,7 @@ import pokedex from "./projectspics/pokedex.png";
 import jokes from "./projectspics/jokes.png";
 import missing from "./projectspics/missing.png";
 import colorGame from "./projectspics/colorgame.png";
-import yelpCamp from "./projectspics/yelpcamp.png";
+import miamyum from "./projectspics/miamyum.png";
 
 const ProjectsData = [
   {
@@ -14,10 +14,10 @@ const ProjectsData = [
     id: '1'
   },
   {
-    pic: foodOrder,
-    title: "DoorMeals",
+    pic: miamyum,
+    title: "Miamyum",
     description: "React",
-    link: "https://milnes.github.io/DoorMeals/",
+    link: "https://milnes.github.io/miamyum/",
     id: '2'
   },
   {
@@ -35,10 +35,10 @@ const ProjectsData = [
     id: '4'
   },
   {
-    pic: yelpCamp,
-    title: "YelpCamp",
-    description: "Javascript",
-    link: "https://github.com/MilneS/yelp-camp",
+    pic: foodOrder,
+    title: "DoorMeals",
+    description: "React",
+    link: "https://milnes.github.io/DoorMeals/",
     id: '5'
   },
   {
