@@ -19,12 +19,12 @@ const Portfolio = () => {
                   </div>
                 </a>
               </div>
-
               <div className={classes.titlecl}>
                 <div className={classes.cardIcons}>
-                  <i className="fa fa-github" />
-                  <a href={item.link}>{item.title}</a>
-                  <i></i>
+                  <div className={classes.ibar}>
+                    <a href={item.ghLink}><i className="fa fa-github" /></a>
+                    <a href={item.link}>{item.title}</a>
+                  </div>
                   <p className={classes.descr}>{item.description}</p>
                 </div>
               </div>
