@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.661c09e3.chunk.css",
-    "main.js": "/static/js/main.c087f47d.chunk.js",
-    "main.js.map": "/static/js/main.c087f47d.chunk.js.map",
+    "main.js": "/static/js/main.d6f326af.chunk.js",
+    "main.js.map": "/static/js/main.d6f326af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a7e5861b.js",
     "runtime-main.js.map": "/static/js/runtime-main.a7e5861b.js.map",
     "static/css/2.f78674c2.chunk.css": "/static/css/2.f78674c2.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/foodorder.1c3224fe.png": "/static/media/foodorder.1c3224fe.png",
     "static/media/jokes.dc1c5605.png": "/static/media/jokes.dc1c5605.png",
     "static/media/linkedinpic.83e16df2.png": "/static/media/linkedinpic.83e16df2.png",
-    "static/media/miamyum.3d9b18e4.png": "/static/media/miamyum.3d9b18e4.png",
+    "static/media/miamyum.e10d9362.png": "/static/media/miamyum.e10d9362.png",
     "static/media/missing.dfa17fd2.png": "/static/media/missing.dfa17fd2.png",
     "static/media/pokedex.2fdea482.png": "/static/media/pokedex.2fdea482.png",
     "static/media/App.module.css": "/static/media/wallpaper.bcf7a4c1.jpg"
@@ -29,6 +29,6 @@
     "static/css/2.f78674c2.chunk.css",
     "static/js/2.53ee1790.chunk.js",
     "static/css/main.661c09e3.chunk.css",
-    "static/js/main.c087f47d.chunk.js"
+    "static/js/main.d6f326af.chunk.js"
   ]
 }
