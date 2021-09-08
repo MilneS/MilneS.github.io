@@ -3,12 +3,12 @@ import pokedex from "./projectspics/pokedex.png";
 import jokes from "./projectspics/jokes.png";
 import missing from "./projectspics/missing.png";
 import colorGame from "./projectspics/colorgame.png";
-import miamyum from "./projectspics/miamyum.png";
+import photogallery from "./projectspics/photogallery.png";
 
 const ProjectsData = [
   {
-    pic: miamyum,
-    title: "Miamyum",
+    pic: photogallery,
+    title: "Photo Gallery",
     description: "React, Redux, CSS",
     ghLink: "https://github.com/MilneS/miamyum",
     link: "https://milnes.github.io/miamyum/",
