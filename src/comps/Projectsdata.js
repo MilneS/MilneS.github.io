@@ -10,8 +10,8 @@ const ProjectsData = [
     pic: photogallery,
     title: "Photo Gallery",
     description: "React, Redux, CSS",
-    ghLink: "https://github.com/MilneS/miamyum",
-    link: "https://milnes.github.io/miamyum/",
+    ghLink: "https://github.com/MilneS/photogallery",
+    link: "https://milnes.github.io/photogallery/",
     id: "1",
   },
   {
