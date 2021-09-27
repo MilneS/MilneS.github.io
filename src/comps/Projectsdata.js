@@ -4,15 +4,24 @@ import jokes from "./projectspics/jokes.png";
 import missing from "./projectspics/missing.png";
 import colorGame from "./projectspics/colorgame.png";
 import photogallery from "./projectspics/photogallery.png";
+import campgrounds from "./projectspics/campgrounds.png";
 
 const ProjectsData = [
+  {
+    pic: campgrounds,
+    title: "CampGrounds",
+    description: "Typescript, React, Redux, Bootstrap",
+    ghLink: "https://github.com/MilneS/campgrounds",
+    link: "https://milnes.github.io/campgrounds/",
+    id: "1",
+  },
   {
     pic: photogallery,
     title: "Photo Gallery",
     description: "React, Redux, CSS",
     ghLink: "https://github.com/MilneS/photogallery",
     link: "https://milnes.github.io/photogallery/",
-    id: "1",
+    id: "2",
   },
   {
     pic: missing,
@@ -20,7 +29,7 @@ const ProjectsData = [
     description: "React, CSS",
     ghLink: "https://github.com/MilneS/missing",
     link: "https://milnes.github.io/missing/",
-    id: "2",
+    id: "3",
   },
   {
     pic: foodOrder,
@@ -28,7 +37,7 @@ const ProjectsData = [
     description: "React, CSS",
     ghLink: "https://github.com/MilneS/DoorMeals",
     link: "https://milnes.github.io/DoorMeals/",
-    id: "3",
+    id: "4",
   },
 
   {
@@ -37,7 +46,7 @@ const ProjectsData = [
     description: "Javascript, HTML, CSS",
     ghLink: "https://github.com/MilneS/color-game",
     link: "https://milnes.github.io/color-game/",
-    id: "4",
+    id: "5",
   },
   {
     pic: jokes,
@@ -45,15 +54,6 @@ const ProjectsData = [
     description: "React, CSS",
     ghLink: "https://github.com/MilneS/jokes",
     link: "https://milnes.github.io/jokes",
-    id: "5",
-  },
-
-  {
-    pic: pokedex,
-    title: "Pokédex",
-    description: "React, CSS",
-    ghLink: "https://github.com/MilneS/pokedex",
-    link: "https://milnes.github.io/pokedex/",
     id: "6",
   },
 ];
