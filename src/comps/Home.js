@@ -7,7 +7,7 @@ const Home = () => {
       <div className={classes.containerleft}>
         <div className={classes.bonjour}>
           <p className={classes.bonjourp}>
-            Bonjour! <span className={classes.sam}>I'm Sam Milne</span>.<br />
+            Bonjour! <span className={classes.sam}>I'm Samira Milne</span>.<br />
             I'm a front-end web developer.
           </p>
         </div>
