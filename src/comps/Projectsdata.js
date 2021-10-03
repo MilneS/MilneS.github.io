@@ -1,5 +1,4 @@
 import foodOrder from "./projectspics/foodorder.png";
-import pokedex from "./projectspics/pokedex.png";
 import jokes from "./projectspics/jokes.png";
 import missing from "./projectspics/missing.png";
 import colorGame from "./projectspics/colorgame.png";
