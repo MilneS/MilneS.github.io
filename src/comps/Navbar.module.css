@@ -3,10 +3,8 @@
   top: 0px;
   height: 3rem;
   display: flex;
-  /* background-color: #1b242f; */
   padding-top: 20px;
 }
-
 ul {
   width: 100%;
   font-size: 18px;
@@ -18,15 +16,12 @@ ul {
   justify-content: space-evenly;
   display: flex;
 }
-
 ul > a {
   text-decoration: none;
   color: #ffffffc2;
   justify-content: space-evenly;
   opacity: 0.7;
-
 }
-
 .po,
 a:hover {
   color: #49bf9d;
@@ -34,10 +29,9 @@ a:hover {
   opacity: 1;
 }
 
-
-
-@media(max-width:768px){
-  .header, ul{
-    display:none
+@media (max-width: 768px) {
+  .header,
+  ul {
+    display: none;
   }
 }

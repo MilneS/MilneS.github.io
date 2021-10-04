@@ -72,7 +72,7 @@ li > div:nth-of-type(even) {
 }
 
 /* description */
-li > div:nth-of-type(3) {
+li > div:nth-of-type(3) {  
   height: 10%;
   font-size: 12px;
   justify-content: left;
@@ -88,8 +88,6 @@ a > #bouton,
 
 a {
   text-decoration: none;
-  /* border:1px solid red */
-
 }
 
 .cardIcons {
@@ -103,18 +101,20 @@ a {
 .cardIcons * {
   margin: 4px 0px;
   text-align: left;
-  width:100%;
+  width: 100%;
   padding: 0px;
-
 }
 .cardIcons i {
   width: 11%;
-  margin-right: 5px
+  margin-right: 5px;
 }
-.ibar{
-  width:150px
+.ibar {
+  width: 200px;
 }
-.cardIcons a{
+.ibar>*{
+  font-size: 20px !important;
+}
+.cardIcons a {
   font-size: 17px;
 }
 .cardIcons p,
@@ -125,8 +125,8 @@ a {
 }
 .descr {
   color: #a2a2a2;
-  font-size: 14px;
-  width:100%;
+  font-size: 15px;
+  width: 100%;
 }
 .cardIcons a:hover {
   color: #49bf9d;
@@ -169,13 +169,25 @@ a {
   align-items: center;
 }
 
-
-@media (max-width: 1300px) {
+@media (max-width: 1024px) {
   .projectscontainer {
     flex-flow: column;
-    width: 30%;
+    width: 100%;
   }
-  li {
-    margin-left: 160px;
+  .ibar>*{
+    font-size: 15px !important;
+  }
+  .descr {
+    font-size: 13px;
+  }
+}
+@media (max-width: 425px) {
+  .containerright {
+    padding: 0px 40px;
+  }
+}
+@media (max-width: 320px) {
+  .containerright {
+    padding: 0px 30px;
   }
 }

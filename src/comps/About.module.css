@@ -8,64 +8,62 @@
   padding-right: 100px;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
-  height: 100%;  
+  height: 100%;
   text-align: center;
 }
-.profilepic{
+.profilepic {
   width: 200px;
   height: 200px;
   justify-content: flex-start;
   margin-top: 20%;
   border-radius: 50%;
   border: 5px solid #a2a2a263;
-  opacity:0.95;
-}
-
-.fsttitle {
-  color: #787878;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 400;
-  padding-top: 5%;
-  letter-spacing: -1.2px;
-}
-.title {
-  color: #787878;
-  text-align: left;
-  font-size: 1em;
-  margin-bottom: 20px;
-  font-weight: normal;
-  line-height: 1.5em;
+  opacity: 0.95;
 }
 
 .message {
   color: #a2a2a2;
   text-align: left;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.75em;
   align-items: center;
   letter-spacing: 1px;
+  margin-top: 100px;
 }
-
 .line {
   margin-top: 20%;
   margin-bottom: 10%;
   border-top: 2px solid rgba(131, 130, 130, 0.198);
 }
 
-
+@media (max-width: 1024px) {
+  .message {
+    font-size: 14px;
+    margin-top: 60px;
+  }
+}
 @media (max-width: 768px) {
-  .profilepic{
+  .profilepic {
     display: none;
   }
-  .fsttitle {
-    font-size: 30px;   
-    padding-top: 25%;
+  .message {
+    margin-top: 110px;
+  }
+}
+@media (max-width: 425px) {
+  .message {
+    margin-top: 80px;
+  }
+  .containerright {
+    padding: 0px 40px;
+  }
+}
+@media (max-width: 320px) {
+  .containerright {
+    padding: 0px 30px;
   }
   .message {
-    font-size: 15px;
-    line-height: 1.5em;
-    letter-spacing: 0.5px;
+    margin-top: 60px;
   }
 }
