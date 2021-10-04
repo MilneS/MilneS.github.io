@@ -7,9 +7,9 @@ const About = () => {
       <div className={classes.containerright}>
         <div id="home">
         <img className={classes.profilepic} src={profilePic} alt="" />
-          <h2 className={classes.fsttitle}>
+          {/* <h2 className={classes.fsttitle}>
             I am a web developer.
-          </h2>
+          </h2> */}
         </div>
         <div>
           <p className={classes.message}>
