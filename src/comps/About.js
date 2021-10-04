@@ -8,7 +8,7 @@ const About = () => {
         <div id="home">
         <img className={classes.profilepic} src={profilePic} alt="" />
           <h2 className={classes.fsttitle}>
-            I am a web developer, traveler and life hacker.
+            I am a web developer.
           </h2>
         </div>
         <div>
