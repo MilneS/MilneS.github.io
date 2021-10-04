@@ -51,6 +51,12 @@
   color: #ffffff80;
 }
 
+@media (max-width: 1024px) {
+  .bonjour {
+    padding-right: 10px;
+    padding-left: 50px;
+  }
+}
 @media (max-width: 768px) {
   .containerleft {
     text-align: unset;
@@ -62,18 +68,25 @@
     font-size: 20px;
     padding-top: 10%;
     padding-bottom: 0%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     padding-right: 0px;
   }
   .name {
     display: none;
   }
   .lefticons {
-    padding-bottom: 2%;
+    /* padding-bottom: 2%; */
     font-size: 20px;
     padding-right: 0px;
     margin-right: 5px;
   }
+  @media (max-width: 425px) {
+    .bonjour {
+      padding-top: 15%;
+      margin-bottom: 2%;
+    }
+  }
+
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) {
       .containerleft {
