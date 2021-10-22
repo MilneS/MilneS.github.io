@@ -16,8 +16,7 @@
   height: 200px;
   justify-content: flex-start;
   margin-top: 20%;
-  border-radius: 50%;
-  border: 5px solid #a2a2a263;
+  border-radius: 100px;
   opacity: 0.95;
 }
 

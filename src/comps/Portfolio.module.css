@@ -72,7 +72,7 @@ li > div:nth-of-type(even) {
 }
 
 /* description */
-li > div:nth-of-type(3) {  
+li > div:nth-of-type(3) {
   height: 10%;
   font-size: 12px;
   justify-content: left;
@@ -111,7 +111,7 @@ a {
 .ibar {
   width: 200px;
 }
-.ibar>*{
+.ibar > * {
   font-size: 20px !important;
 }
 .cardIcons a {
@@ -145,16 +145,19 @@ a {
   display: none;
 }
 .imgs {
-  width: 100%;
+  width: 100% ;
   height: 100%;
-  border-radius: 5%;
-  border: 3px solid #a2a2a263;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .view {
   border: 3px solid #ddddddb6;
   padding: 10px 15px;
   color: #ddddddb6;
-  border-radius: 5%;
+  border-radius: 10px;
   font-size: 15px;
   font-weight: bold;
 }
@@ -163,7 +166,7 @@ a {
   background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
-  border-radius: 4%;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,7 +177,7 @@ a {
     flex-flow: column;
     width: 100%;
   }
-  .ibar>*{
+  .ibar > * {
     font-size: 15px !important;
   }
   .descr {
