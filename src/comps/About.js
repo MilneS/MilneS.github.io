@@ -18,7 +18,7 @@ const About = () => {
             decided to do a complete 180 to chase my newfound dream of becoming
             a web developer. I focus on building clean and user-friendly
             interfaces and I'm constantly learning web technologies and other
-            development related topics. On my free time, I also enjoy travelling,
+            development related topics. In my free time, I also enjoy travelling,
             hiking and baking.
           </p>
         </div>
