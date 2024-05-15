@@ -11,6 +11,9 @@ const Portfolio = () => {
         <ul className={classes.projectscontainer}>
           {ProjectsData.map((item) => (
             <li key={item.id}>
+              {item.title === "CampGrounds" && (
+                <p className={classes.maintenance}>UNDER MAINTENANCE</p>
+              )}
               <div className={classes.imgcontainer}>
                 <img className={classes.imgs} src={item.pic} alt="" />
                 <a href={item.link}>
@@ -22,7 +25,9 @@ const Portfolio = () => {
               <div className={classes.titlecl}>
                 <div className={classes.cardIcons}>
                   <div className={classes.ibar}>
-                    <a href={item.ghLink}><i className="fa fa-github" /></a>
+                    <a href={item.ghLink}>
+                      <i className="fa fa-github" />
+                    </a>
                     <a href={item.link}>{item.title}</a>
                   </div>
                   <p className={classes.descr}>{item.description}</p>

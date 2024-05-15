@@ -12,7 +12,6 @@ const Contact = () => {
   const [showMessage, setShowMessage] = useState(false);
   const [sending, setSending] = useState(false);
 
-
   const onSubmit = (e) => {
     e.preventDefault();
     setSending(true);
@@ -24,7 +23,7 @@ const Contact = () => {
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        setSending(false)
+        setSending(false);
         setShowMessage(true);
       })
       .catch((err) => {
@@ -39,11 +38,9 @@ const Contact = () => {
 
   return (
     <>
-      <div className={classes.containerright} id="contact" >
+      <div className={classes.containerright} id="contact">
         <div>
-          <h2 className={classes.title}>
-            Get In Touch
-          </h2>
+          <h2 className={classes.title}>Get In Touch</h2>
         </div>
         <div className={classes.message}>
           <p>
@@ -51,14 +48,16 @@ const Contact = () => {
             hesistate to send me a message!
           </p>
           <div className={classes.sentcontainer}>
-            {sending ? <p style={{'color':'#a8a029'}}>Sending...</p> : 
-            showMessage ? 
-            <p style={{'color':'#49bf9d'}}>Your message was sent!</p> : null
-            }
+            {sending ? (
+              <p style={{ color: "#a8a029" }}>Sending...</p>
+            ) : showMessage ? (
+              <p style={{ color: "#49bf9d" }}>Your message was sent!</p>
+            ) : null}
           </div>
         </div>
         <div className={classes.contactContainer}>
           <form onSubmit={onSubmit}>
+            <div className={classes.maintenance}>UNDER MAINTENANCE</div>
             <div className={classes.formstyle}>
               <div>
                 <label htmlFor="name" />
