@@ -13,7 +13,7 @@ const Home = () => {
         </div>
         <section className={classes.lefticons}>
           <div>
-            <a href="http://www.linkedin.com/in/milnesam">
+            <a href="https://www.linkedin.com/in/samiramilne">
               <i className="fa fa-linkedin" />
             </a>
             <a href="https://github.com/MilneS">
