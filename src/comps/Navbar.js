@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <nav className={classes.header}>
         <ul>
-          <a href='#home'>Home</a>
+          <a href='#home'>Experience</a>
           <a href='#portfolio'>Portfolio</a>
           <a href='#contact'>Contact</a>
         </ul>

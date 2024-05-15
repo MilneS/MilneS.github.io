@@ -20,11 +20,11 @@
   padding-top: 37%;
   padding-bottom: 60%;
   padding-right: 60px;
-  letter-spacing: 1px;
-}
+    letter-spacing: 1px;
+  }
 .bonjourp {
   margin: 0px;
-}
+  }
 
 .sam {
   color: white;
@@ -33,7 +33,7 @@
 .lefticons {
   padding: 0px 60px;
   font-size: 25px;
-}
+  }
 
 .lefticons a {
   color: #ffffff80;

@@ -7,7 +7,7 @@ const Home = () => {
       <div className={classes.containerleft}>
         <div className={classes.bonjour}>
           <p className={classes.bonjourp}>
-            Bonjour! <span className={classes.sam}>I'm Samira Milne</span>.<br />
+            Hello! <span className={classes.sam}>I'm Samira Milne</span>.<br />
             I'm a front-end web developer.
           </p>
         </div>
@@ -23,7 +23,7 @@ const Home = () => {
               <i className="fa fa-envelope-o" />
             </a>
           </div>
-          <div className={classes.name}>© Samira Milne | 2021</div>
+          <div className={classes.name}>© Samira Milne | 2024</div>
         </section>
       </div>
     </>
