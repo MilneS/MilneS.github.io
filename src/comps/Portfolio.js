@@ -10,8 +10,11 @@ const Portfolio = () => {
       <div>
         <ul className={classes.projectscontainer}>
           {ProjectsData.map((item) => (
-            <li key={item.id}>
+            <li key={item.id}> 
               <div className={classes.imgcontainer}>
+              {item.title === "CampGrounds" && (
+                <p className={classes.maintenance}> /!\ UNDER MAINTENANCE /!\</p>
+              )}
                 <img className={classes.imgs} src={item.pic} alt="" />
                 <a href={item.link}>
                   <div className={classes.after}>
