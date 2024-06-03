@@ -11,9 +11,6 @@ const Portfolio = () => {
         <ul className={classes.projectscontainer}>
           {ProjectsData.map((item) => (
             <li key={item.id}>
-              {item.title === "CampGrounds" && (
-                <p className={classes.maintenance}>UNDER MAINTENANCE</p>
-              )}
               <div className={classes.imgcontainer}>
                 <img className={classes.imgs} src={item.pic} alt="" />
                 <a href={item.link}>

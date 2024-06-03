@@ -1,5 +1,4 @@
 import classes from "./About.module.css";
-import profilePic from "../linkedinpic.png";
 
 const About = () => {
   return (
@@ -8,16 +7,11 @@ const About = () => {
         <div id="home">
           <h2 className={classes.title}>Experience</h2>
         </div>
-
-        {/* <div id="home"> */}
-        {/* <img className={classes.profilepic} src={profilePic} alt="" /> */}
-        {/* </div> */}
         <div className={classes.resume}>
           <div className={classes.company}>
             <h3>
               {" "}
               <a
-                className={classes.companyLink}
                 href="https://www.bottlerocketstudios.com/"
                 alt=""
               >
@@ -39,7 +33,6 @@ const About = () => {
             </li>
           </ul>
         </div>
-
         <div>
           <p className={classes.message}>
             With <span className={classes.impt}>over two years</span> of
